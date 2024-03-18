@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+html,
+body,
+div,
+:root {
+  font-family: 'Lato', sans-serif;
+}
+
+:root {
+  --gradient-background: transparent linear-gradient(248deg, #DC1866 0%, #FF9226 100%) 0% 0% no-repeat padding-box; 
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+}
+
+body,
+:root {
+  font-family: 'Lato', sans-serif;
+  background-color: #EEEEEE 0% 0% no-repeat padding-box;
+}
+
+.header-content {
+  background: var(--gradient-background);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+}
+
+.header-img {
+  margin-left: 30%;
+  margin-right: 5%;
+}
+
+.basic-header-btn,
+.login-header-btn,
+.sign-up-header-btn
+{
+  float: right;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  font: bold 16px/19px Lato;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  cursor: pointer;
+  justify-content: space-around;
+  padding: 10px 20px;
+}
+.start-header-btn {
+  float: left;
+  text-align: left;
+  font: bold 16px/19px Lato;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  cursor: pointer;
+  justify-content: space-around;
+  border: 2px solid #7833FF;
+  border-radius: 30px;
+  background-color: #7833FF;
+  padding: 10px 20px;
+}
+
+.login-header-btn {
+  border: 2px solid #FFFFFF;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.sign-up-header-btn {
+  border: 2px solid #7833FF;
+  border-radius: 30px;
+  margin-right: 10px;
+  background-color: #7833FF;
+}
+
+
+.nav-bar {
+  padding-top: 2%;
+  padding-left: 2%;
+  overflow: auto;
+}
+
+.content-wrapper {
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-right: 1%;
+  display: flex;
+  flex-direction: row;
+}
+
+.text-wrapper {
+  width: 310px;
+  padding: 20px;
+}
+
+.text-header {
+  font: normal 900 34px/41px Lato;
+  color: #FFFFFF;
+  text-align: left;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px; 
+}
+
+.page-title {
+  margin-top: 98px;
+  text-align: center;
+  font: normal normal bold 40px Lato; 
+  color: #7833FF;
+}
+
+.page-content {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-content-items {
+  margin-top: 88px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.page-content-item img {
+  width: 214px;
+  height: 202px;
+}
+
+.page-content-item {
+  width: 30%;
+}
+
+.page-subtitle {
+  font: normal normal bold 20px/28px Lato;
+  color: #7833FF;
+}
+
+.page-span {
+  font: normal normal medium 20px/28px Lato;
+}
+
+.learn-more-btn {
+  margin-top: 66px;
+  width: 114px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.purple-background {
+  margin-top: 10%;
+  background-color: #5F29CC;
+  text-align: center;
+  padding: 50px;
+  border-radius: 24px;
+
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+}
+
+.purple-background span {
+  margin-right: 15%;
+
+}
+
+.centered-content {
+  color: #FFFFFF;
+}
+
+.image-grid {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-content: space-around; 
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image-grid div {
+  width: 200px;
+  text-align: center;
+}
+
+.image-grid img {
+  width: 80px;
+  height: 80px;
+  margin-top: 90px;
+}
+
+.image-grid h3,
+.image-grid span {
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.image-grid span {
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.image-grid-button {
+  color: #FFFFFF;
+  background-color: transparent;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 24px;
+  border: 2px solid #FFFFFF;
+  height: 40px;
+  width: 290px;
+}
+
+@media (max-width: 1750px) {
+  .header-content {
+  background: var(--gradient-background);
+  height: 70vh;
+}
+}
+
+@media (max-width: 1450px) {
+  .header-content {
+  background: var(--gradient-background);
+  height: 70vh;
+}
+.content-wrapper {
+  margin-right: 25%;
+}
+}
+
+@media (max-width: 1300px) {
+  .header-content {
+  background: var(--gradient-background);
+  height: 70vh;
+}
+  .header-img {
+    margin-top: 15%;
+    margin-left: 30%;
+  }
+}
+
+@media (max-width: 968px) {
+  .header-img {
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
